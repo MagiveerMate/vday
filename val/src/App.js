@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   useEffect(() => {
     // Set the current date and time
-    const currentDate = new Date().getTime();
+    
 
     // Set the date we're counting down to (February 14th, current year, 00:00:00)
     const currentYear = new Date().getFullYear();
